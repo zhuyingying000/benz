@@ -3,11 +3,6 @@
     <div>
       <HeaderBar></HeaderBar>
       <CarsImg></CarsImg>
-      <FullType></FullType>
-      <FullTypeImg></FullTypeImg>
-      <MoreFind></MoreFind>
-      <MoreFindImg></MoreFindImg>
-      <Second></Second>
     </div>
   </div>
 </template>
@@ -15,12 +10,6 @@
 <script>
 import HeaderBar from './HeaderBar'
 import CarsImg from './CarsImg'
-import FullType from './FullType'
-import FullTypeImg from './FullTypeImg'
-import MoreFind from './MoreFind'
-import MoreFindImg from './MoreFindImg'
-import Second from './Second'
-
 
 
 export default {
@@ -28,11 +17,6 @@ export default {
   components: {
     HeaderBar,
     CarsImg,
-    FullType,
-    FullTypeImg,
-    MoreFind,
-    MoreFindImg,
-    Second,
   },
   data() {
     return {}

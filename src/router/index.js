@@ -9,6 +9,8 @@ import MercedesAmg from '../components/MercedesAmg'
 
 
 
+
+
 Vue.use(Router)
 //定义路由
 export default new Router({
@@ -38,10 +40,6 @@ export default new Router({
       name: 'MercedesAmg',
       component:MercedesAmg
     },
-
-
-
-
 
   ]
 

@@ -2,6 +2,7 @@
   <div>
     <div>
       <HeaderBar></HeaderBar>
+      {{ipt}}
       <CarsImg></CarsImg>
     </div>
   </div>
@@ -10,6 +11,7 @@
 <script>
 import HeaderBar from './HeaderBar'
 import CarsImg from './CarsImg'
+import dsz from '../common/ipt'
 
 
 export default {
@@ -19,7 +21,9 @@ export default {
     CarsImg,
   },
   data() {
-    return {}
+    return {
+      ipt:dsz
+    }
   }
 }
 </script>

@@ -5,6 +5,7 @@
   <HeaderBar></HeaderBar>
     <LoginClient></LoginClient>
     <Introduce></Introduce>
+    <FooterPage></FooterPage>
 
   </div>
 </template>
@@ -13,6 +14,7 @@
 import HeaderBar from './HeaderBar'
 import LoginClient from './LoginClient'
 import Introduce from './Introduce'
+import FooterPage from './FooterPage'
 
 
 export default {
@@ -21,6 +23,7 @@ export default {
     HeaderBar,
     LoginClient,
     Introduce,
+    FooterPage
 
 
   }
